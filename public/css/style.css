@@ -1,0 +1,11 @@
+:root {
+    --white: rgb(218, 206, 206);
+}
+
+label {
+    color: var(--white);
+}
+
+.form-title {
+    color: var(--white);
+}
