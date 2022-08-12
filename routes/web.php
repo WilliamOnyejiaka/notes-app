@@ -37,3 +37,11 @@ Route::get('/home', [HomeController::class, 'home'])
 Route::post('/create-note', [HomeController::class, 'createNote'])
     ->name('create-note');
 
+Route::patch('/update-note/{id}', [HomeController::class, 'updateNote'])
+    ->name('update-note');
+
+Route::put('/update-note/{id}', [HomeController::class, 'updateNote'])
+    ->name('update-note');
+
+Route::delete('/delete-note/{id}', [HomeController::class, 'deleteNote'])
+    ->name('delete-note');

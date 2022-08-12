@@ -41,5 +41,3 @@
 
     </div>
 </div>
-
-<script type="module" src="{{ asset('scripts/dist/create-note.js') }}"></script>

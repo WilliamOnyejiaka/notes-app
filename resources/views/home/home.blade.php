@@ -59,4 +59,7 @@
         </script>
     @endif --}}
     <livewire:create-note />
+    <livewire:note-details-modal />
+    <script type="module" src="{{ asset('scripts/dist/create-note.js') }}"></script>
+    <script type="module" src="{{ asset('scripts/dist/card.js') }}"></script>
 @endsection
